@@ -423,7 +423,7 @@
                 showLoading(resultContainer);
 
                 $.ajax({
-                    url: 'process.php',
+                    url:'./process.php',
                     type: 'POST',
                     data: form.serialize(),
                     dataType: 'json',
@@ -445,7 +445,7 @@
                 showLoading(resultContainer);
 
                 $.ajax({
-                    url: 'process.php',
+                    url:'./process.php',
                     type: 'POST',
                     data: form.serialize(),
                     dataType: 'json',
@@ -475,7 +475,7 @@
                 showLoading(resultContainer);
 
                 $.ajax({
-                    url: 'process.php',
+                    url:'./process.php',
                     type: 'POST',
                     data: formData,
                     dataType: 'json',
@@ -507,7 +507,7 @@
                 showLoading(resultContainer);
 
                 $.ajax({
-                    url: 'process.php',
+                    url:'./process.php',
                     type: 'POST',
                     data: formData,
                     dataType: 'json',
@@ -556,7 +556,7 @@
                 showLoading(resultContainer);
 
                 $.ajax({
-                    url: 'process.php',
+                    url:'./process.php',
                     type: 'POST',
                     data: form.serialize(),
                     dataType: 'json',
@@ -595,7 +595,7 @@
                 showLoading(resultContainer);
 
                 $.ajax({
-                    url: 'process.php',
+                    url:'./process.php',
                     type: 'POST',
                     data: form.serialize(),
                     dataType: 'json',
@@ -617,7 +617,7 @@
                 showLoading(resultContainer);
 
                 $.ajax({
-                    url: 'process.php',
+                    url:'./process.php',
                     type: 'POST',
                     data: form.serialize(),
                     dataType: 'json',
@@ -646,7 +646,7 @@
                 showLoading(resultContainer);
 
                 $.ajax({
-                    url: 'process.php',
+                    url:'./process.php',
                     type: 'POST',
                     data: formData,
                     dataType: 'json',
@@ -677,7 +677,7 @@
                 showLoading(resultContainer);
 
                 $.ajax({
-                    url: 'process.php',
+                    url:'./process.php',
                     type: 'POST',
                     data: formData,
                     dataType: 'json',
@@ -695,7 +695,7 @@
             // Function to load available keys
             function loadAvailableKeys() {
                 $.ajax({
-                    url: 'process.php',
+                    url:'./process.php',
                     type: 'POST',
                     data: { type: 'get_available_keys' },
                     dataType: 'json',
